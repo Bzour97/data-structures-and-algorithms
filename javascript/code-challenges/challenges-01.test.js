@@ -8,7 +8,7 @@ Write a function named `addOne` that takes an array of numbers, and returns a ne
 Use `forEach` to loop over the input array and work with each value.  Push the new value into a local array. Return the local array;
 ------------------------------------------------------------------------------------------------ */
 
-const addOne = (arr) => {
+const addOne = (/*arr*/) => {
   // Solution code here...
 };
 
@@ -20,7 +20,7 @@ Write a function named `addExclamation` that takes an array of strings, and retu
 Use `forEach` to loop over the input array. Modify each string, and add the updated value into a local array. Return the local array;
 ------------------------------------------------------------------------------------------------ */
 
-const addExclamation = (arr) => {
+const addExclamation = (/*arr*/) => {
   // Solution code here...
 };
 
@@ -32,7 +32,7 @@ Write a function named `allUpperCase` that takes an array of strings, and return
 Use `forEach` to loop over the input array. The modified strings should each be added into a local array. Return that local array.
 ------------------------------------------------------------------------------------------------ */
 
-const allUpperCase = (arr) => {
+const allUpperCase = (/*arr*/) => {
   // Solution code here...
 };
 
@@ -46,11 +46,11 @@ Then, write a function named `speaker` that takes in an array of strings and a c
 Use `forEach` to build a new array of strings, each string modified by the callback. Return the new array. 
 ------------------------------------------------------------------------------------------------ */
 
-const greeting = (word) => {
+const greeting = (/*word*/) => {
   // Solution code here...
 };
 
-const speaker = (words, callback) => {
+const speaker = (/*words, callback*/) => {
   // Solution code here...
 };
 
@@ -70,11 +70,11 @@ Within the addNumbers function, invoke the callback function as many times as ne
 Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
-const addValues = (arr, value) => {
+const addValues = (/*arr, value*/) => {
   // Solution code here...
 };
 
-const addNumbers = (num, arr, times, callback) => {
+const addNumbers = (/*num, arr, times, callback*/) => {
   // Solution code here...
 };
 
@@ -96,7 +96,7 @@ The inventory is formatted like this:
 This function should use forEach to populate your grocery list based on the store's inventory. If the item is available, add it to your list. Return the final list.
 ------------------------------------------------------------------------------------------------ */
 
-const createList = (availableItems) => {
+const createList = (/*availableItems*/) => {
   // Solution code here...
 };
 
@@ -114,7 +114,7 @@ Iterate over the array using forEach to determine the output based on several ru
 Return the resulting output array.
 ------------------------------------------------------------------------------------------------ */
 
-const fizzbuzz = (arr) => {
+const fizzbuzz = (/*arr*/) => {
   // Solution code here...
 };
 
